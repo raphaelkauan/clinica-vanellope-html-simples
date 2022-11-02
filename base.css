@@ -1,0 +1,108 @@
+@font-face {
+    font-family:'minhafonte';
+    src: url(/04B_30__.TTF);
+}
+
+@font-face {
+    font-family:'minhafonte2';
+    src: url(/Minecrafter.Reg.ttf);
+}
+
+
+html, body {
+    margin: 0;
+}
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn {
+    list-style:none;
+}
+
+.container-a{
+display: inline-block;
+
+}
+
+.inicio{
+    display: inline-block;
+}
+
+#vanellope {
+font-family:'minhafonte';
+color: rgb(0, 255, 225); 
+
+}
+
+#txtsobre {
+    font-family:'minhafonte2';
+    color: rgb(0, 255, 255);
+    font-size: 50px;
+}
+
+#ela {
+    margin-top: 10px;
+}
+
+
+#violao {
+    margin-left: 20px;
+}
+
+#clinica {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#hora {
+    font-family:'minhafonte2';
+    color: rgb(0, 255, 255);
+    font-size: 50px;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: black;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: whitesmoke;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(0, 170, 255);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(241, 240, 240);
+    min-height: 150px;
+}
+
+.sobre {
+    display: inline-block;
+ 
+}
+
+table, th, td {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(0, 170, 255);
+}
